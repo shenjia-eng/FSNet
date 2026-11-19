@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these resources, please cite this repository and the associated FSNet manuscript."
+type: software
+title: "FSNet: An Interpretable Spatial–Frequency Structure-Constrained Network for Tree Crown Detection and Counting in Forest Satellite Imagery"
+authors:
+  - family-names: Shen
+    given-names: Jia
+  - family-names: Cheng
+    given-names: Xia
+  - family-names: Zhou
+    given-names: Guoxiong
+  - family-names: Hu
+    given-names: Jue
+  - family-names: Zhang
+    given-names: Huaiqing
+  - family-names: Huang
+    given-names: Xin
+keywords:
+  - tree crown detection
+  - tree counting
+  - satellite remote sensing
+  - reproducibility
+repository-code: "https://github.com/shenjia-eng/FSNet"
+version: 1.0.0
+date-released: 2026-11-18

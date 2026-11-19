@@ -1,0 +1,315 @@
+{
+  "schema": "fsnet-model-manifest-v1",
+  "models": [
+    {
+      "model_id": "fsnet_seed42_joint",
+      "seed": 42,
+      "stage": "F04_detse50",
+      "stage_epoch": 32,
+      "executed_schedule_epoch": 332,
+      "confidence_threshold": 0.5,
+      "threshold_comparator": ">",
+      "asset_name": "fsnet_seed42.pth",
+      "bytes": 88540719,
+      "sha256": "718f80024447dd95d622c2a13f8743c88d38eec254b367649edcf74fb7d93164",
+      "metrics": {
+        "evaluation228": {
+          "radius_8": {
+            "images": 228,
+            "mae": 8.771929824561404,
+            "rmse": 16.684902304547087,
+            "precision": 0.5535499398315282,
+            "recall": 0.4972972972972973,
+            "f1": 0.5239179954441914,
+            "tp": 5060,
+            "fp": 4081,
+            "fn": 5115
+          },
+          "radius_12": {
+            "images": 228,
+            "mae": 8.771929824561404,
+            "rmse": 16.684902304547087,
+            "precision": 0.6814352915435948,
+            "recall": 0.6121867321867321,
+            "f1": 0.6449575481466142,
+            "tp": 6229,
+            "fp": 2912,
+            "fn": 3946
+          },
+          "radius_16": {
+            "images": 228,
+            "mae": 8.771929824561404,
+            "rmse": 16.684902304547087,
+            "precision": 0.7306640411333553,
+            "recall": 0.6564127764127764,
+            "f1": 0.6915510457651688,
+            "tp": 6679,
+            "fp": 2462,
+            "fn": 3496
+          }
+        }
+      },
+      "config": "configs/fsnet_seed42.json",
+      "config_sha256": "929d164f54930ecbe5528254bf1a98b1a7f74375f6d1c06e1511ccd2af3210f4",
+      "training_manifest": {
+        "revision": "a6f7ce305bbd0be2c5a534697814e16e59fdb6b7",
+        "path": "data/data_manifest.json",
+        "sha256": "52924aada96ca3dc53a429ce3b397cb336dfb864035e6d85b7aeb8d42a1d1f7a",
+        "split": "train"
+      },
+      "evaluation_manifest": {
+        "path": "data/data_manifest.json",
+        "sha256": "2bb862675b10c4d71def70ed048f7245289fa7df361ab8988089a108af50c051",
+        "split": "validation"
+      }
+    },
+    {
+      "model_id": "fsnet_seed123_joint",
+      "seed": 123,
+      "stage": "F04_detse50",
+      "stage_epoch": 9,
+      "executed_schedule_epoch": 309,
+      "confidence_threshold": 0.5,
+      "threshold_comparator": ">",
+      "asset_name": "fsnet_seed123.pth",
+      "bytes": 88540719,
+      "sha256": "2f40e619d5d9e9c57be2fe0807bd3b03d110a767a7a4a3eafe8ef39dd18f61bf",
+      "metrics": {
+        "evaluation228": {
+          "radius_8": {
+            "images": 228,
+            "mae": 9.179824561403509,
+            "rmse": 17.024105716265876,
+            "precision": 0.5412777432068036,
+            "recall": 0.5129238329238329,
+            "f1": 0.5267194832719382,
+            "tp": 5219,
+            "fp": 4423,
+            "fn": 4956
+          },
+          "radius_12": {
+            "images": 228,
+            "mae": 9.179824561403509,
+            "rmse": 17.024105716265876,
+            "precision": 0.6619995851483095,
+            "recall": 0.6273218673218673,
+            "f1": 0.6441943785638593,
+            "tp": 6383,
+            "fp": 3259,
+            "fn": 3792
+          },
+          "radius_16": {
+            "images": 228,
+            "mae": 9.179824561403509,
+            "rmse": 17.024105716265876,
+            "precision": 0.7121966397013068,
+            "recall": 0.6748894348894349,
+            "f1": 0.6930413281525962,
+            "tp": 6867,
+            "fp": 2775,
+            "fn": 3308
+          }
+        }
+      },
+      "config": "configs/fsnet_seed123.json",
+      "config_sha256": "8ce2a85a0567283fb95d7b1835ca113641721f3ec43d6e871b32224e1284c265",
+      "training_manifest": {
+        "revision": "a6f7ce305bbd0be2c5a534697814e16e59fdb6b7",
+        "path": "data/data_manifest.json",
+        "sha256": "52924aada96ca3dc53a429ce3b397cb336dfb864035e6d85b7aeb8d42a1d1f7a",
+        "split": "train"
+      },
+      "evaluation_manifest": {
+        "path": "data/data_manifest.json",
+        "sha256": "2bb862675b10c4d71def70ed048f7245289fa7df361ab8988089a108af50c051",
+        "split": "validation"
+      }
+    },
+    {
+      "model_id": "fsnet_seed456_joint",
+      "seed": 456,
+      "stage": "F04_detse50",
+      "stage_epoch": 28,
+      "executed_schedule_epoch": 328,
+      "confidence_threshold": 0.5,
+      "threshold_comparator": ">",
+      "asset_name": "fsnet_seed456.pth",
+      "bytes": 88540719,
+      "sha256": "e057b6201d71cfec1fc4dc505252bf2f9849b70da399b3e92c283344c1a6bfac",
+      "metrics": {
+        "evaluation228": {
+          "radius_8": {
+            "images": 228,
+            "mae": 9.342105263157896,
+            "rmse": 16.420729304059336,
+            "precision": 0.5322531951293147,
+            "recall": 0.5198034398034398,
+            "f1": 0.5259546539379475,
+            "tp": 5289,
+            "fp": 4648,
+            "fn": 4886
+          },
+          "radius_12": {
+            "images": 228,
+            "mae": 9.342105263157896,
+            "rmse": 16.420729304059336,
+            "precision": 0.6554292039851062,
+            "recall": 0.6400982800982801,
+            "f1": 0.647673031026253,
+            "tp": 6513,
+            "fp": 3424,
+            "fn": 3662
+          },
+          "radius_16": {
+            "images": 228,
+            "mae": 9.342105263157896,
+            "rmse": 16.420729304059336,
+            "precision": 0.7040354231659455,
+            "recall": 0.6875675675675675,
+            "f1": 0.6957040572792362,
+            "tp": 6996,
+            "fp": 2941,
+            "fn": 3179
+          }
+        }
+      },
+      "config": "configs/fsnet_seed456.json",
+      "config_sha256": "bcc2ebee9a4d4117744486694fbd4c2e94465b8e303a4f05bb3871433945741b",
+      "training_manifest": {
+        "revision": "a6f7ce305bbd0be2c5a534697814e16e59fdb6b7",
+        "path": "data/data_manifest.json",
+        "sha256": "52924aada96ca3dc53a429ce3b397cb336dfb864035e6d85b7aeb8d42a1d1f7a",
+        "split": "train"
+      },
+      "evaluation_manifest": {
+        "path": "data/data_manifest.json",
+        "sha256": "2bb862675b10c4d71def70ed048f7245289fa7df361ab8988089a108af50c051",
+        "split": "validation"
+      }
+    },
+    {
+      "model_id": "fsnet_seed789_joint",
+      "seed": 789,
+      "stage": "F04_detse50",
+      "stage_epoch": 27,
+      "executed_schedule_epoch": 327,
+      "confidence_threshold": 0.5,
+      "threshold_comparator": ">",
+      "asset_name": "fsnet_seed789.pth",
+      "bytes": 88540719,
+      "sha256": "56861eb8c688d545d0c01828fb8bba419b6428dc3992453366fc0105ab9633bb",
+      "metrics": {
+        "evaluation228": {
+          "radius_8": {
+            "images": 228,
+            "mae": 9.026315789473685,
+            "rmse": 16.96875353381114,
+            "precision": 0.5658739997745971,
+            "recall": 0.49346437346437344,
+            "f1": 0.5271944561108778,
+            "tp": 5021,
+            "fp": 3852,
+            "fn": 5154
+          },
+          "radius_12": {
+            "images": 228,
+            "mae": 9.026315789473685,
+            "rmse": 16.96875353381114,
+            "precision": 0.6934520455313874,
+            "recall": 0.6047174447174447,
+            "f1": 0.6460520789584209,
+            "tp": 6153,
+            "fp": 2720,
+            "fn": 4022
+          },
+          "radius_16": {
+            "images": 228,
+            "mae": 9.026315789473685,
+            "rmse": 16.96875353381114,
+            "precision": 0.7458582215710583,
+            "recall": 0.6504176904176904,
+            "f1": 0.6948761024779504,
+            "tp": 6618,
+            "fp": 2255,
+            "fn": 3557
+          }
+        }
+      },
+      "config": "configs/fsnet_seed789.json",
+      "config_sha256": "8bca4e9a94ad817a37a66259170587ec89f89ba7d4cef1fe178a52a7502ae8e2",
+      "training_manifest": {
+        "revision": "a6f7ce305bbd0be2c5a534697814e16e59fdb6b7",
+        "path": "data/data_manifest.json",
+        "sha256": "52924aada96ca3dc53a429ce3b397cb336dfb864035e6d85b7aeb8d42a1d1f7a",
+        "split": "train"
+      },
+      "evaluation_manifest": {
+        "path": "data/data_manifest.json",
+        "sha256": "2bb862675b10c4d71def70ed048f7245289fa7df361ab8988089a108af50c051",
+        "split": "validation"
+      }
+    },
+    {
+      "model_id": "fsnet_seed2026_joint",
+      "seed": 2026,
+      "stage": "F04_detse50",
+      "stage_epoch": 38,
+      "executed_schedule_epoch": 338,
+      "confidence_threshold": 0.5,
+      "threshold_comparator": ">",
+      "asset_name": "fsnet_seed2026.pth",
+      "bytes": 88540719,
+      "sha256": "4972ab1e1a22dc1b66e477a874557e82b8d195cccac73e38a5e06aeef0725552",
+      "metrics": {
+        "evaluation228": {
+          "radius_8": {
+            "images": 228,
+            "mae": 9.0,
+            "rmse": 16.79912278411553,
+            "precision": 0.562119296632571,
+            "recall": 0.4806879606879607,
+            "f1": 0.5182242000423819,
+            "tp": 4891,
+            "fp": 3810,
+            "fn": 5284
+          },
+          "radius_12": {
+            "images": 228,
+            "mae": 9.0,
+            "rmse": 16.79912278411553,
+            "precision": 0.6990001149293185,
+            "recall": 0.5977395577395578,
+            "f1": 0.6444161898707353,
+            "tp": 6082,
+            "fp": 2619,
+            "fn": 4093
+          },
+          "radius_16": {
+            "images": 228,
+            "mae": 9.0,
+            "rmse": 16.79912278411553,
+            "precision": 0.7463509941386047,
+            "recall": 0.6382309582309582,
+            "f1": 0.6880695062513245,
+            "tp": 6494,
+            "fp": 2207,
+            "fn": 3681
+          }
+        }
+      },
+      "config": "configs/fsnet_seed2026.json",
+      "config_sha256": "4262e4e2011d0919d96bee68ce1f959d6f93048b1e090e6f5ed5e9e72162c5a4",
+      "training_manifest": {
+        "revision": "a6f7ce305bbd0be2c5a534697814e16e59fdb6b7",
+        "path": "data/data_manifest.json",
+        "sha256": "52924aada96ca3dc53a429ce3b397cb336dfb864035e6d85b7aeb8d42a1d1f7a",
+        "split": "train"
+      },
+      "evaluation_manifest": {
+        "path": "data/data_manifest.json",
+        "sha256": "2bb862675b10c4d71def70ed048f7245289fa7df361ab8988089a108af50c051",
+        "split": "validation"
+      }
+    }
+  ]
+}

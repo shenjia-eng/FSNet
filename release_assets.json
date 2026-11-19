@@ -1,0 +1,64 @@
+{
+  "models": [
+    {
+      "seed": 42,
+      "stage_epoch": 32,
+      "global_epoch": 332,
+      "file": "fsnet_seed42.pth",
+      "bytes": 88540719,
+      "sha256": "718f80024447dd95d622c2a13f8743c88d38eec254b367649edcf74fb7d93164"
+    },
+    {
+      "seed": 123,
+      "stage_epoch": 9,
+      "global_epoch": 309,
+      "file": "fsnet_seed123.pth",
+      "bytes": 88540719,
+      "sha256": "2f40e619d5d9e9c57be2fe0807bd3b03d110a767a7a4a3eafe8ef39dd18f61bf"
+    },
+    {
+      "seed": 456,
+      "stage_epoch": 28,
+      "global_epoch": 328,
+      "file": "fsnet_seed456.pth",
+      "bytes": 88540719,
+      "sha256": "e057b6201d71cfec1fc4dc505252bf2f9849b70da399b3e92c283344c1a6bfac"
+    },
+    {
+      "seed": 789,
+      "stage_epoch": 27,
+      "global_epoch": 327,
+      "file": "fsnet_seed789.pth",
+      "bytes": 88540719,
+      "sha256": "56861eb8c688d545d0c01828fb8bba419b6428dc3992453366fc0105ab9633bb"
+    },
+    {
+      "seed": 2026,
+      "stage_epoch": 38,
+      "global_epoch": 338,
+      "file": "fsnet_seed2026.pth",
+      "bytes": 88540719,
+      "sha256": "4972ab1e1a22dc1b66e477a874557e82b8d195cccac73e38a5e06aeef0725552"
+    }
+  ],
+  "datasets": [
+    {
+      "file": "mt-set-v2-part01.zip",
+      "bytes": 889265729,
+      "sha256": "924565b23477a64ab063c5aa769e46411926a7cdd06eba0e03c179f1508a4c92",
+      "members": 1966
+    },
+    {
+      "file": "mt-set-v2-part02.zip",
+      "bytes": 889491708,
+      "sha256": "b48eb03af724e4a19712e47c644b90afb2eeb61895604ccb442ebd8fe8d3d403",
+      "members": 1998
+    },
+    {
+      "file": "mt-set-v2-part03.zip",
+      "bytes": 592463819,
+      "sha256": "041784be621a65d64f384da53cea1a271809fe1f1ebf27aaa6f5a75a212eb91a",
+      "members": 1536
+    }
+  ]
+}

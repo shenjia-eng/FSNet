@@ -1,0 +1,10 @@
+# Install a matching torch/torchvision pair for your CPU or CUDA platform first.
+torch>=2.6
+torchvision>=0.21
+numpy>=2.0,<3
+scipy>=1.13
+Pillow>=10
+opencv-python-headless>=4.10
+PyYAML>=6
+tensorboardX>=2.6
+matplotlib>=3.8

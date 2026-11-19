@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+outputs/
+weights/
+datasets/
+*.pth
+*.pt
+*.zip
+*.tar*
+.env

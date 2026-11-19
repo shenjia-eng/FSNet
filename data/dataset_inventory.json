@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "cropped_images_800(Giant cypress)",
+    "images": 1232,
+    "annotations": 1232,
+    "points": 15862
+  },
+  {
+    "directory": "cropped_images_800(Tibetan juniper)",
+    "images": 1225,
+    "annotations": 784,
+    "points": 52809
+  },
+  {
+    "directory": "cropped_images_800_Tibetan juniper",
+    "images": 186,
+    "annotations": 157,
+    "points": 22955
+  },
+  {
+    "directory": "cropped_images_800_fir_merged",
+    "images": 176,
+    "annotations": 176,
+    "points": 70490
+  },
+  {
+    "directory": "cropped_images_800_spruce_merged",
+    "images": 108,
+    "annotations": 108,
+    "points": 11237
+  },
+  {
+    "directory": "images_800_Giant_cypress",
+    "images": 33,
+    "annotations": 33,
+    "points": 16610
+  },
+  {
+    "directory": "images_800_Tibetan_juniper",
+    "images": 25,
+    "annotations": 25,
+    "points": 11226
+  }
+]
